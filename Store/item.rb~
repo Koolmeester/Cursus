@@ -1,0 +1,6 @@
+class Item
+	attr_accessor :name, :unit, :price, :detail
+	def to_s
+		"#{:name}	Unit: #{:unit}	Price: #{:price}"
+	end
+end

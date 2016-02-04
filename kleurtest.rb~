@@ -1,0 +1,4 @@
+require 'colorize'
+
+puts "This is blue".colorize(:magenta)
+puts "This is magenta".colorize(:cyan)
